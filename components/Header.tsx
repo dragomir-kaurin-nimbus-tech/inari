@@ -8,7 +8,7 @@ export function Header() {
           INARI
         </Link>
         <nav aria-label="Glavna navigacija">
-          <a href="#about">O meni</a>
+          <a href="#about">O nama</a>
           <a href="#services">Usluge</a>
           <a href="#projects">Projekti</a>
           <a href="#contact">Kontakt</a>

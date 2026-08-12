@@ -26,7 +26,7 @@ export const siteConfig = {
     {
       name: "Branding",
       description:
-        "Logotipi, vizuelni identitet i kompletna strategija brenda.",
+        "Logotipi, vizuelni identitet, pakovanja i kompletna strategija brenda.",
     },
     {
       name: "Web Design",
@@ -34,7 +34,8 @@ export const siteConfig = {
     },
     {
       name: "Social Media",
-      description: "Kreativni vizuali za Instagram, Facebook i LinkedIn.",
+      description:
+        "Kreativni vizuali za Instagram, Facebook i LinkedIn, kao i vođenje društvenih mreža.",
     },
   ],
 } as const;

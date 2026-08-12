@@ -15,7 +15,7 @@ export function Footer() {
           >
             Instagram
           </a>
-          <a href="#about">O meni</a>
+          
           <a href="#contact">Kontakt</a>
         </div>
       </div>

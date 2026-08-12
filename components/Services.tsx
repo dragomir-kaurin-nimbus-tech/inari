@@ -2,7 +2,7 @@ const services = [
   {
     title: "Branding",
     description:
-      "Logotipi, vizuelni identitet i kompletna strategija brenda.",
+      "Logotipi, vizuelni identitet, pakovanja i kompletna strategija brenda.",
   },
   {
     title: "Web Design",
@@ -10,7 +10,7 @@ const services = [
   },
   {
     title: "Social Media",
-    description: "Kreativni vizuali za Instagram, Facebook i LinkedIn.",
+    description: "Kreativni vizuali za Instagram, Facebook i LinkedIn, kao i vođenje društvenih mreža.",
   },
 ];
 
@@ -19,7 +19,7 @@ export function Services() {
     <section id="services" aria-labelledby="services-heading">
       <div className="container">
         <span className="subtitle">USLUGE</span>
-        <h2 id="services-heading">Šta nudim</h2>
+        <h2 id="services-heading">Šta nudimo</h2>
         <div className="services">
           {services.map((service) => (
             <article key={service.title}>
