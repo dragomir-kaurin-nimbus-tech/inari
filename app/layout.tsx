@@ -54,6 +54,16 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
   },
+  icons: {
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-icon", sizes: "180x180", type: "image/png" }],
+    shortcut: "/favicon.png",
+  },
   formatDetection: {
     email: false,
     address: false,
