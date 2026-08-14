@@ -21,6 +21,8 @@
     --white:#050505;
     --gray:#a5a5a5;
 
+    --header-h:90px;
+
 }
 
 *{
@@ -80,7 +82,7 @@ header{
 
     align-items:center;
 
-    height:90px;
+    height:var(--header-h);
 
 }
 
@@ -132,9 +134,17 @@ HERO
 
     min-height:70vh;
 
+    padding-top:var(--header-h);
+
     display:flex;
 
     align-items:center;
+
+}
+
+section[id]{
+
+    scroll-margin-top:calc(var(--header-h) + 16px);
 
 }
 
@@ -506,11 +516,17 @@ RESPONSIVE
 
 @media(max-width:900px){
 
+:root{
+
+--header-h:70px;
+
+}
+
 .hero{
 
 min-height:auto;
 
-padding:72px 0 48px;
+padding:calc(var(--header-h) + 32px) 0 48px;
 
 }
 
