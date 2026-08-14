@@ -9,8 +9,8 @@ export function Footer() {
           className="footer-logo"
           src="/img/logo.png"
           alt={siteConfig.name}
-          width={647}
-          height={366}
+          width={1000}
+          height={1000}
         />
 
         <a
