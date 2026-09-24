@@ -600,6 +600,33 @@ gap:20px;
 
 }
 
+.project:hover img{
+
+transform:none;
+
+}
+
+.project:hover::before,
+.project:active::before,
+.project:focus::before{
+
+background:rgba(0,0,0,.15);
+
+}
+
+.project-info,
+.project:hover .project-info,
+.project:active .project-info,
+.project:focus .project-info{
+
+opacity:0;
+
+transform:translateY(25px);
+
+pointer-events:none;
+
+}
+
 .about h2{
 
 font-size:36px;
